@@ -9,7 +9,7 @@ Create an account
     The Create function expects the Data in the models.Data fomrat to be passed
     Returns acreated Data (account) object
 
-Fetch details of the accoount
+Fetch details of the account
 
     The Fetch function expects a valid UUID to be passed as the parameter.
     Returns error if the UUID is invalid.
@@ -21,12 +21,12 @@ Delete an account
 
 Example
 
-`go get `
+`go get github.com/sreeks87/account`
 
 Usage
 
 ```go
-import  "github.com/sreeks87/interview-accountapi/account"
+import  "github.com/sreeks87/account"
 func AccountCreate() {
 c := account.NewAcctController(add)
     acct := &account.AccountData{
