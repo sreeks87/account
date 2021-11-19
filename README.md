@@ -2,12 +2,12 @@
 
 The account api is a client library exposed to interact with the Fake Account API
 
-The library exposes three functions via.
+The library exposes three functions -
 
 Create an account
 
-    The Create function expects the Data in the models.Data fomrat to be passed
-    Returns acreated Data (account) object
+    The Create function expects the Data in the models.Data format to be passed
+    Returns a created Data (account) object
 
 Fetch details of the account
 
